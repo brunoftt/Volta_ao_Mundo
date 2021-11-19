@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+* { overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+html {
+    overflow-x: initial !important;
+    }
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 1000px;
+   list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(189, 46, 46);}
+
+
+
+
+
+    #search-box {
+        position: relative;
+        width: 400px;
+        margin: 0;
+        overflow: hidden;
+        position: relative;top: -160px; right: -1120px;
+    }
+    #search-form {
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgb(37, 37, 39);
+        overflow: hidden;
+    }
+    #search-text {
+        font-size: 14px;
+        color: #fff;
+        border-width: 0;
+        background: transparent;
+        overflow: hidden;
+    }
+    #search-box input[type="text"] {
+        width: 90%;
+        padding: 11px 0 12px 1em;
+        color: #fff;
+        outline: none;
+        overflow: hidden;
+    }
+    #search-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 42px;
+        width: 80px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        line-height: 42px;
+        border-width: 0;
+        background-color: rgb(189, 46, 46);
+        -webkit-border-radius: 0px 5px 5px 0px;
+        -moz-border-radius: 0px 5px 5px 0px;
+        border-radius: 0px 5px 5px 0px;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+
+    .base_tinder{border-left-width:1px;border-left-style:solid;border-left-color: rgb(231, 231, 231);background-color: rgb(255, 255, 255);width:300px ;height: 740px; position: absolute;right: 25px;top: 200px;overflow: hidden;}
+    .base_tinder2{border-left-width:1px;border-left-style:solid;border-left-color: rgb(231, 231, 231);background-color: rgb(255, 255, 255);width:300px ;height: 790px; position: absolute;right: 25px;top: 500px;overflow: hidden;}
+    .base_tinder3{border-left-width:1px;border-left-style:solid;border-left-color: rgb(231, 231, 231);background-color: rgb(255, 255, 255);width:300px ;height: 800px; position: absolute;right: 25px;top: 200px;overflow: hidden;}
+    .base_tinder4{border-left-width:1px;border-left-style:solid;border-left-color: rgb(231, 231, 231);background-color: rgb(255, 255, 255);width:300px ;height: 900px; position: absolute;right: 25px;top: 350px;overflow: hidden;}
+    .base_tinder5{width:300px ;height: 740px; position: absolute;right: 25px;top: 200px;overflow: hidden;}
+
+
+    #search-button2 {
+        position:relative;
+        top: 50px;
+        right: -15;
+        height: 40px;
+        width: 280px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        border-width: 0;
+        background-color: rgb(189, 46, 46);
+        -webkit-border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+        cursor: pointer;
+        overflow: hidden;}
+
+
+        .base_inferior{background-color: rgb(37, 37, 39); width: 20000px;height: 335px;overflow: hidden;position: absolute;bottom: -680px;} 
+        .contato{font-size: 20px;color: #fff;}
+        .developer{background-color: rgb(37, 37, 39);border-top-width:1px;border-top-style:solid;border-top-color: rgb(230, 230, 230); width: 2000px; height: 75px;overflow:hidden;position: absolute;top:260px;}
+
+        .base_inferior2{background-color: rgb(37, 37, 39); width: 20000px;height: 335px;overflow: hidden;position: absolute;bottom: -1400px;} 
+        .base_inferior3{background-color: rgb(37, 37, 39); width: 20000px;height: 335px;overflow: hidden;position: absolute;bottom:-1200px;} 
+        .base_inferior4{background-color: rgb(37, 37, 39); width: 20000px;height: 335px;overflow: hidden;position: absolute;bottom:-1500px;} 
+        ul.circle { max-width: 950px; position: relative;right:150px;top: -80px;font-size: 20px; list-style-type:circle;}
+
+        .hino{background-color: rgb(194, 194, 194); width: 1000px; height: 900px;font-size: 20px;overflow: hidden;padding: 20px;}
